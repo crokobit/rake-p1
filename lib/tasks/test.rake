@@ -1,3 +1,4 @@
+task :default => :html
 task :html_md => %W[ch1.html ch2.html ch3.html]
 
 %W[ch1.md ch2.md ch3.md].each do |md_file|
